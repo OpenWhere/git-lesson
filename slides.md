@@ -3,6 +3,12 @@
 For Derek:
 ![Memorizing Six Commands](./resources/memorizing-six.png)
 ---
-## This text is centered
+## *Agenda*
++ What is Git?
++ How we use Git
++ Hands-on training
 ---
-This text is not
+# What is *Git*?
+---
+*Changes*, not Code
+---
