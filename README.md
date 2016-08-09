@@ -6,6 +6,8 @@ use Git at BlackSky. The resources are as follows:
 + `slides.md` - A simple set of slides to accompany the lesson plan above
 + `crash_course.html` - The file you open in the browser to view the slides
 + `index.html` - The playground in which we will practice our git-fu
++ `great_commit_messages.html` - Another set of slides + speaking notes on the
+  importance of writing great commit messages.
 
 ## Self Study
 If you are interested in **learning git**, the [Git Immersion](http://gitimmersion.com/)
@@ -20,8 +22,8 @@ convince you of the importance of writing good commit messages. :)
 
 # Updating Slides
 If you find you have become the person in charge of the Git Crash Course
-contained herein, you may be interested in updating the slides. The slides are
-written in markdown, and you can compile them to HTML with [biggie](https://github.com/tmcw/biggie).
+contained herein, you may be interested in updating the slides. The crash course
+slides are written in markdown, and you can compile them to HTML with [biggie](https://github.com/tmcw/biggie).
 
 1. Install biggie:
 ```
@@ -32,3 +34,6 @@ npm install -g biggie
 ```
 biggie slides.md --style ./resources/big_styles.css > crash_course.html
 ```
+
+The slides for `great_commit_messages` were painstaking crafted by hand in raw
+HTML, so you'll have to forego Markup when editing those.
