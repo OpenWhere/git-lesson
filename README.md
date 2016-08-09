@@ -2,7 +2,7 @@
 This repository contains a list of resources for learning (and teaching) how we
 use Git at BlackSky. The resources are as follows:
 
-+ `lesson_plan.md` - Speaking notes for a crash course in Git
++ `crash_course.md` - Speaking notes for a crash course in Git
 + `slides.md` - A simple set of slides to accompany the lesson plan above
 + `index.html` - The file you open in the browser to view the slides
 
