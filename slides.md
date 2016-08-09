@@ -48,9 +48,9 @@ One-way Data Flow
 ---
 ```
 git fetch upstream
-git checkout upstream/develop
-git branch my-new-branch
-git checkout my-new-branch
+git checkout upstream/master
+git branch my-feature
+git checkout my-feature
 ```
 ---
 *Branches*
@@ -90,14 +90,43 @@ Now:
 + Pull Requests
 + Merge Conflicts
 ---
+*Edit:*
+```
+index.html
+resources/generator.js
+```
+---
 Committing
+---
++ `git status`
++ `git diff`
++ `git add -p`
++ `git diff --cached`
++ `git commit`
 ---
 Submitting
 ---
++ `git push origin my-feature`
++ [github.com/OpenWhere/git-lesson](github.com/OpenWhere/git-lesson)
++ Follow on-screen prompts to create Pull Request
+---
 Pull Requests
+---
++ Review Code *again*
++ Write Descriptive Title
++ Add helpful description (screenshots!)
+---
+Code Reviews
 ---
 Merge Conflicts
 ---
++ `git fetch upstream`
++ `git branch` (verify correct branch)
++ `git merge upstream/master`
++ Resolve conflicts
++ `git commit -a`
++ `git push origin my-feature`
+---
 # Questions?
 ---
-# Thanks!
+# *Thanks!*

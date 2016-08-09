@@ -174,9 +174,13 @@ Now, we're going to cover the following:
 
 1. Navigate to your local repository
 2. Make sure you're on a new branch (my-branch) with the latest from upstream
-3. Open `classlist.md` for editing
-4. Add your name to the class list
-5. `git commit -p`
+3. Open `index.html` or `resources/generator.js`
+4. Create an enhancement to the project (add a noun, adjective, or some other feature)
+5. `git status`
+6. `git diff`
+7. `git add -p`
+8. `git diff --cached`
+9. `git commit`
 
 There is lot of literature online for writing [great commit messages](http://chris.beams.io/posts/git-commit/)
 
