@@ -6,6 +6,7 @@ use Git at BlackSky. The resources are as follows:
 + `slides.md` - A simple set of slides to accompany the lesson plan above
 + `crash_course.html` - The file you open in the browser to view the slides
 + `index.html` - The playground in which we will practice our git-fu
+  - `resources/generator.js` - The Javascript file to accompany our playground
 + `great_commit_messages.html` - Another set of slides + speaking notes on the
   importance of writing great commit messages.
 
