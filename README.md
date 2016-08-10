@@ -21,6 +21,45 @@ If you need to read the same thing from different people to believe something,
 maybe [this post](http://alistapart.com/article/the-art-of-the-commit) will
 convince you of the importance of writing good commit messages. :)
 
+# Git-Sensei's Protips
+Add the following to your `~/.gitconfig` for an amazing command-line git experience:
+
+```
+[color]
+    ui = auto
+[alias]
+    co = checkout
+    st = status
+    diffs = diff --stat
+    diffc = diff --cached
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    newb = "!git fetch upstream && git checkout upstream/develop && git co -b $2"
+    cleanup = "!git branch -r --merged | grep origin | grep -v '>' | grep -v master | xargs -L1 | cut -d\"/\" -f2- | xargs git push origin --delete"
+[push]
+    default = simple
+```
+
+Let's talk about each option in detail:
+
++ Color: Colors your diffs green/red when lines are added/removed
++ Aliases:
+  - `co`: `git co` to checkout instead of `git checkout`
+  - `st`: `git st` instead of `git status`
+  - `diffs`: Shows some information about the changes you haven't yet committed
+  ```
+  $ git diffs
+   package.json           |  1 +
+   webpack.config.js      | 13 ++++++++++++-
+   webpack.prod.config.js | 17 ++++++++++++++---
+   3 files changed, 27 insertions(+), 4 deletions(-)
+  ```
+  - 'diffc': Same as `git diff --cached`, which shows files you've ADDED to a commit (but not yet committed)
+  - `hist`: Pretty-print your git history!
+  - `newb`: Automates the "new branch" part of the workflow; fetches the latest from upstream and creates a new branch from it
+  - `cleanup`: Careful with this one! This will delete all the merged branches on your origin (merged may not mean the pull-request has been accepted!)
++ Push: States that `push` will only push the working branch to a target repo (rather than to all repos with a branch of the same name).
+
+
 # Updating Slides
 If you find you have become the person in charge of the Git Crash Course
 contained herein, you may be interested in updating the slides. The crash course
