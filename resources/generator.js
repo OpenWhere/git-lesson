@@ -16,6 +16,7 @@ var adjs = [
   'Legacy',
   'Deputy',
   'Master',
+  'Derek\'s',
   'Supreme'
 ];
 
