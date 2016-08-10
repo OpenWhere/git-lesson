@@ -86,7 +86,7 @@ So far:
 Now:
 
 + Committing
-+ Submitting
++ Pushing/Submitting
 + Pull Requests
 + Merge Conflicts
 ---
@@ -104,7 +104,7 @@ Committing
 + `git diff --cached`
 + `git commit`
 ---
-Submitting
+Pushing/Submitting
 ---
 + `git push origin my-feature`
 + [github.com/OpenWhere/git-lesson](github.com/OpenWhere/git-lesson)
