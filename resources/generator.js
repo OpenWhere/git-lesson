@@ -16,7 +16,8 @@ var adjs = [
   'Legacy',
   'Deputy',
   'Master',
-  'Spanish'
+  'Spanish',
+  'Supreme'
 ];
 
 var nouns = [
@@ -44,7 +45,8 @@ var nouns = [
   'Security',
   'Metrics',
   'Test',
-  'Quality'
+  'Quality',
+  'Shoe'
 ];
 
 var titles = [
@@ -77,7 +79,9 @@ var titles = [
   'President',
   'Assistant',
   'Automator',
-  'Facilitator'
+  'Facilitator',
+  'Sensei',
+  'Rock'
 ];
 
 /**
