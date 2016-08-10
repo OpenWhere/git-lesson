@@ -118,6 +118,15 @@ Pull Requests
 ---
 Code Reviews
 ---
++ Read the code in Github
++ Check out the code and test locally
+---
+```
+git remote add derek git@github.com:owdd/git-lesson.git
+git fetch derek
+git checkout derek/<derek's branch name>`
+```
+---
 Merge Conflicts
 ---
 + `git fetch upstream`
