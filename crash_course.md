@@ -23,7 +23,7 @@ point in time. You just "checkout" the code from a specific commit.
 A `git checkout <hash>` says "show me the codebase at the commit represented by
 this <hash>."
 
-## Distributed?
+## Distributed
 Git is a DVCS, which means that everybody has the complete history of the
 codebase. Unlike Subversion and CVS (where users will "check out" and "check in"
 their code like a book from a library), in Git, everybody has the complete
@@ -69,7 +69,7 @@ changes you want.
 But you don't want to write code in the browser (I'm looking at you, Derek), so
 we're going to clone the code to our local machines now.
 
-### Origin
+### Clone
 Click the "Clone or Download" button in Github, and copy the URL.
 
 Now, on your computer (I use the command line), you will want to `git clone` and
@@ -78,6 +78,7 @@ paste your URL.
 Git clones the files to your computer from Github, and now you've got a local
 copy of the code!
 
+### Origin
 Your FORK is called ORIGIN. This is the default name that git gives to the repo
 from which the codebase was cloned.
 
@@ -144,6 +145,7 @@ A pull request is a way to merge your branch (with your bugfix or feature) into
 our upstream repository. It has certain advantages over merging code by hand,
 including:
 
+### Code Reviews
 + The ability to tell you if there are any merge conflicts before the code is
   merged
 + The ability for others to view your changes and comment in-line (code reviews)
