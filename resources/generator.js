@@ -74,7 +74,8 @@ var titles = [
   'President',
   'Assistant',
   'Automator',
-  'Facilitator'
+  'Facilitator',
+  'Sensei'
 ];
 
 /**
