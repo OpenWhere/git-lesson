@@ -15,7 +15,8 @@ var adjs = [
   'Scaled',
   'Legacy',
   'Deputy',
-  'Master'
+  'Master',
+  'Spanish'
 ];
 
 var nouns = [
@@ -34,6 +35,7 @@ var nouns = [
   'Network',
   'Optimization',
   'Quality',
+  'Quantification',
   'Marketing',
   'Business',
   'Agile',
@@ -62,6 +64,7 @@ var titles = [
   'Curator',
   'Researcher',
   'Scientist',
+  'Mathematician',
   'Jedi',
   'Button-pusher',
   'Mouse-clicker',
