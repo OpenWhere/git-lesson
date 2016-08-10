@@ -48,6 +48,14 @@ var nouns = [
 ];
 
 var titles = [
+  'Arceus',
+  'Eevee',
+  'Scyther',
+  'Ninetails',
+  'Pincer',
+  'Electrode',
+  'Tangela',
+  'Onix',
   'Architect',
   'Evangelist',
   'Specialist',
