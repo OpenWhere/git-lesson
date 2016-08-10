@@ -77,6 +77,7 @@ var titles = [
   'Assistant',
   'Automator',
   'Facilitator',
+  'Sensei',
   'Rock'
 ];
 
