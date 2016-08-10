@@ -15,7 +15,8 @@ var adjs = [
   'Scaled',
   'Legacy',
   'Deputy',
-  'Master'
+  'Master',
+  'Derek\'s',
 ];
 
 var nouns = [
