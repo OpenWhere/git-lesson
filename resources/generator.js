@@ -46,14 +46,14 @@ var nouns = [
 ];
 
 var titles = [
-  'Architect',
-  'Evangelist',
-  'Specialist',
-  'Ninja',
-  'Pirate',
-  'Engineer',
-  'Technician',
-  'Officer',
+  'Arceus',
+  'Eevee',
+  'Scyther',
+  'Ninetails',
+  'Pincer',
+  'Electrode',
+  'Tangela',
+  'Onix',
   'President',
   'Swashbuckler',
   'Prophet',
