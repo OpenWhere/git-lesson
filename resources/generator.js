@@ -81,7 +81,8 @@ var titles = [
   'Automator',
   'Facilitator',
   'Sensei',
-  'Rock'
+  'Rock' ,
+  'Geek'
 ];
 
 /**
